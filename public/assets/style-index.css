@@ -1,0 +1,241 @@
+/* BOTÃO PRINCIPAL - ROSA */
+
+.btn-primary {
+    color: #F8F9FA !important;
+    background-color: #D63384 !important;
+    border-color: #D63384 !important;
+}
+
+.btn:hover {
+    color: #F8F9FA !important;
+    background-color: #E062A5 !important;
+    border-color: #E062A5 !important;
+}
+
+.btn:active {
+    color: #F8F9FA !important;
+    background-color: #B02A6F !important;
+    border-color: #B02A6F !important;
+}
+
+/* MENU HAMBÚRGUER */
+
+.navbar-toggler:active {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+/* EFEITO DROPDOWN */
+
+.dropdown-item:active {
+    color: #F8F9FA !important;
+    background-color: #C02673 !important;
+    border-color: #C02673 !important;
+}
+
+/* From Uiverse.io by kirzin */
+
+/* BOTÃO FORNECEDOR */
+
+.btn-fornecedor {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    width: 15em;
+    height: 2.5em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #d63384, #fa7e14, #d63384, #fa7e14);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.btn-fornecedor:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+}
+
+.btn-fornecedor:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #d63384, #fa7e14, #d63384, #fa7e14);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+
+.btn-fornecedor:hover::before {
+    filter: blur(20px);
+}
+
+.btn-fornecedor:active {
+    background: linear-gradient(32deg, #d63384, #fa7e14, #d63384, #fa7e14);
+}
+
+/* BOTÃO CARD - LARANJA */
+
+.btn-orange {
+    background-color: #a84f00 !important;
+    color: #F8F9FA !important;
+}
+
+.btn-orange:hover {
+    background-color: #c85f00 !important;
+    color: #F8F9FA !important;
+    border-color: #c85f00 !important;
+}
+
+.btn-orange:active {
+    color: #F8F9FA !important;
+    background-color: #864100 !important;
+    border-color: #864100 !important;
+}
+
+/* BOTÃO CARD - ROSA */
+
+.btn-pink {
+    background-color: #a3144d !important;
+    color: #F8F9FA !important;
+}
+
+.btn-pink:hover {
+    background-color: #c01a5c !important;
+    color: #F8F9FA !important;
+    border-color: #c01a5c !important;
+}
+
+.btn-pink:active {
+    color: #F8F9FA !important;
+    background-color: #820e3a !important;
+    border-color: #820e3a !important;
+}
+
+/* From Uiverse.io by david-mohseni */
+
+/* REDES SOCIAIS - FOOTER */
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* FACEBOOK */
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+}
+
+/* WHATSAPP */
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+    background: #0cb315;
+    color: #fff;
+}
+
+/* INSTAGRAM */
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: #d63384;
+    color: #fff;
+}
+
+/* BARRA DE ROLAGEM */
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #d63384;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
+button:active {
+    background-color: #d63384 !important;
+    margin-top: -8px;
+    color: rgb(255, 255, 255);
+
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    transform: none;
+}
