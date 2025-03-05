@@ -1,0 +1,100 @@
+/* BOTÃO PRINCIPAL - ROSA */
+.btn-primary {
+    color: #F8F9FA !important;
+    background-color: #D63384 !important;
+    border-color: #D63384 !important;
+}
+
+.btn:hover {
+    color: #F8F9FA !important;
+    background-color: #E062A5 !important;
+    border-color: #E062A5 !important;
+}
+
+.btn:active {
+    color: #F8F9FA !important;
+    background-color: #B02A6F !important;
+    border-color: #B02A6F !important;
+}
+
+/* LOGIN - EMPRESA */
+.form {
+    display: block;
+    padding: 1rem;
+    max-width: 100%;
+    border-radius: 0.5rem;
+    margin: auto;
+}
+
+.form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.form-select {
+    background-color: #fff !important;
+    padding: 1rem !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+    width: 100% !important;
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+}
+
+/* Efeito ao passar o mouse */
+.form-select:focus {
+    border-color: #D63384 !important;
+    box-shadow: 0 0 0 0.2rem rgba(214, 51, 132, 0.25) !important;
+}
+
+.form-subtitle {
+    font-size: 0.7rem;
+    color: #555;
+}
+
+.input-container label {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Espaçamento entre os campos */
+.input-container {
+    margin-bottom: 1rem;
+}
+
+.input-container input,
+.input-container select,
+.form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+}
+
+.input-container input,
+.input-container select {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* BARRA DE ROLAGEM */
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #d63384;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
